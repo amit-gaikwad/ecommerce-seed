@@ -1,0 +1,254 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "title": "A Game of Thrones",
+            "year": 1996,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "http://www.startupist.com/wp-content/uploads/2015/03/books.jpg"
+        },
+        {
+            "id": 2,
+            "title": "A Clash of Kings",
+            "year": 1998,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "http://www.mikelavere.com/wp-content/uploads/2015/03/self-improvement-books.jpg"
+        },
+        {
+            "id": 3,
+            "title": "A Storm of Swords",
+            "year": 2000,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://www.rd.com/wp-content/uploads/2016/04/06-reading-habits-multiple-books.jpg"
+        },
+        {
+            "id": 4,
+            "title": "A Feast for Crows",
+            "year": 2005,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/HwRzr6s-796x398.jpg"
+        },
+        {
+            "id": 5,
+            "title": "A Dance with Dragons",
+            "year": 2011,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": ""
+        },
+        {
+            "id": 6,
+            "title": "The Winds of Winter",
+            "year": null,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "http://www.mathscareers.org.uk/wp-content/uploads/2015/11/book-no-attirbution.jpg"
+        },
+        {
+            "id": 7,
+            "title": "A Dream of Spring",
+            "year": null,
+            "author": "George R. R. Martin",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSykcsf5D_CyRXr0jI-HoYIpnM9pr2xvCd6_7eLArgMBZ3YwBphtA"
+        },
+        {
+            "id": 8,
+            "title": "The Philosopher's Stone",
+            "year": 1997,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5HaSN-mdVyTeP5L4Gfe7Mrf5eh4JhATMOUL823NmK0Wbm7wbLQw"
+        },
+        {
+            "id": 9,
+            "title": "The Chamber of Secrets",
+            "year": 1998,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRawpetf--eIWtuObfg3kGi0qGKBXRyGKcTdBi8o2sTX2zCaAsGrQ"
+        },
+        {
+            "id": 10,
+            "title": "The Prisoner of Azkaban",
+            "year": 1999,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg9Zpra8oWjCoD6kplGQtFzRtwKmoFIdsk5Xji7t3wjLl3Okvb"
+        },
+        {
+            "id": 11,
+            "title": "The Goblet of Fire",
+            "year": 2000,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSnX1GUlBSYFFa1A6my97rcYICdLxPMlhYY17U653slR7hxIPOzg"
+        },
+        {
+            "id": 12,
+            "title": "The Order of the Phoenix",
+            "year": 2003,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUa-NyDdky6PY8jd4HDMXnMznI96p9zMftK4LjDzMy7ZQyz6QV"
+        },
+        {
+            "id": 13,
+            "title": "The Half-Blood Prince",
+            "year": 2005,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZfR2vk5HRkhwGvdODSOCIvrQUWY1JsZq1ata1YlTfgLxOrC9N"
+        },
+        {
+            "id": 14,
+            "title": "The Deathly Hallows",
+            "year": 2007,
+            "author": "J. K. Rowling",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": ""
+        },
+        {
+            "id": 15,
+            "title": "Flaggermusmannen",
+            "year": 1997,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEWEwUFfVRm-gFjrVZB0qgKI8us6edoHxBITTKPMI7Rkks1XIu"
+        },
+        {
+            "id": 16,
+            "title": "Kakerlakkene",
+            "year": 1998,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSukETPHEDNnD7M0vaECGS0BX3-k0ZwF-RuBo58Ta6estcT41kp"
+        },
+        {
+            "id": 17,
+            "title": "Rødstrupe",
+            "year": 2000,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBazy47JoXSErPJI9ZaNlCPqh0EFPnKbo3CaVk28EQSg-AyKad"
+        },
+        {
+            "id": 18,
+            "title": "Sorgenfri",
+            "year": 2002,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkJXEuaiygLi_E-0KsIw9ptnzKYr8woPl7ZYKomEkwxz5nLQt0mQ"
+        },
+        {
+            "id": 19,
+            "title": "Marekors",
+            "year": 2003,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrAVm-v1KBAO8Tl0QIpjO7V25Wv4cUeLb-2f5v93a5cgVkWuLbw"
+        },
+        {
+            "id": 20,
+            "title": "Frelseren",
+            "year": 2005,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuEPXeH4eWkqluBNFVFGBdceEPC4Q4ji4eXVmf5aYLNxZgnQY7aA"
+        },
+        {
+            "id": 21,
+            "title": "Snømannen",
+            "year": 2007,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": ""
+        },
+        {
+            "id": 22,
+            "title": "Panserhjerte",
+            "year": 2009,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBtq4G8hJOH32P48le7Ru_-4ChfrCtm5KEWUTNCvHJ_E0dLTbd"
+        },
+        {
+            "id": 23,
+            "title": "Gjenferd",
+            "year": 2011,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTI4YyH-nupCY_sB0DYkJGoGUtIJiLLMgdIrG20TFzSWMTBmhk1"
+        },
+        {
+            "id": 24,
+            "title": "Politi",
+            "year": 2013,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdDkB-llqkRk9PcbvL2npQ6uWhzVnTuYqHR3oAivCUgreh6F_N"
+        },
+        {
+            "id": 25,
+            "title": "Tørst",
+            "year": 2017,
+            "author": "Jo Nesbø",
+            "price": 4000,
+            "discount": 10,
+            "type": "story",
+            "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx4z7HOL76VmCERgVx-8WRjIovACWszDF2WjeOEOaPf8aKpwFB_w"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+@import "./assets/slick/slick.css";
+@import "./assets/slick/slick-theme.css";
+@import url('https://fonts.googleapis.com/css?family=Archivo Black:400,700');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+    
+/* Common Css - Bharath */
+
+.bg-black {
+    background-color: #000;
+    background: #000;
+    color: #fff;
+}
+
+.page-main-content {
+    margin-top: 78px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.goog-te-banner-frame.skiptranslate, .goog-logo-link, #goog-gt-tt {
+    display: none !important;
+}
+
+.lang-select {
+    cursor: pointer;
+}
+
+/* Common Css End - Bharath*/
+
+button.slick-next {
+    right: 0px !important;
+    z-index: 99;
+}
+
+button.slick-prev {
+    left: 0px;
+    z-index: 99;
+}
+
+body {
+    top: 0 !important;
+}

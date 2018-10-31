@@ -1,0 +1,54 @@
+.link-bg
+{
+background-color: steelblue;
+color: white;
+}
+.gbfooter
+{
+    padding-left: 15px;
+    
+}
+.link2-header
+{
+    color:steelblue;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}
+.link2-bg
+{
+    background-color: black;
+    color:white;
+    font-size: 1rem;
+
+}
+
+.w-font{
+    color:white;
+}
+
+.select-w
+{
+    width: 80%;
+    
+}
+.select-p
+{
+padding-bottom: 5px;
+
+}
+.f-padding
+{
+padding-top: 15px;
+padding-bottom: 20px;
+
+}
+
+
+li#b-item.breadcrumb-item+.breadcrumb-item::before
+ {
+    display: inline-block;
+    padding-right: .5rem;
+    color: white;
+    content: ">";
+}

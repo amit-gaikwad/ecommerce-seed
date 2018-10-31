@@ -1,0 +1,106 @@
+.gbbody{
+    background-color: black;
+    color: white;
+    
+    
+    padding-top : 80px;
+}
+#BorderDiv{
+    border: 1px solid orange;
+    text-align: center;padding: 5px;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#BorderDivThik{
+    border: 10px solid orange;
+    text-align: center;padding: 10%;
+}
+
+
+.rowindex {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE 10 */
+    /*flex: 25%;*/
+    padding: 0 3px;
+}
+
+.mydesign
+{
+    background-color: rgba(0, 0, 0, 0);
+    background-repeat: no-repeat;                
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    opacity: 1; 
+    visibility: inherit;
+    z-index: 20;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+.PillarDesign{
+    background-color: lightgray;
+    padding: 10px;
+    width: 100%;
+    /*height: 500px*/
+}
+.img1{
+    /*height:80px;*/
+    height:240px;
+    width: 100%;
+    margin-top: 4px;
+    padding: 8px;
+}
+.img2{
+    /*height:80px;*/
+    height:240px;
+    width: 100%;
+    margin-top: 4px;
+    padding: 8px;
+}
+.img3{
+    /*height:165px;*/
+    height:480px;
+    width: 100%;
+    margin-top: 4px;
+    padding: 8px;
+}
+.pillardesignimg{
+    height:30vw;
+    width: 100%;
+    margin-top: 4px;
+}
+.ramesh{
+    background-color:red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.pagination .page-item .page-link
+{
+background-color: black !important;
+border: none;
+padding:3px;
+color:gray;
+font-size: 12px;
+
+}

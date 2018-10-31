@@ -1,0 +1,106 @@
+<div class="row">
+  <header class="container-fluid no-padding">
+    <nav class="navbar fixed-top navbar-expand-md navbar-light bg-black main-nav-bar">
+      <div class="container-fluid no-padding" style="margin-bottom: 5px;">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img src="../../assets/images/brandtigo new-04.png" class="logo" alt="Brandtigo">
+        </a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+         
+          
+          <ul class="navbar-nav main-menu"  *ngIf="username" >
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Lifestyle
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" routerLink="/traveller">Travellers</a>
+            </li>
+            <li class="nav-item dropdown-menu-vmall">
+              <a class="nav-link dropdown-toggle" href="#" routerLink="/vmallmain" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Vmall</a>
+              <div class="dropdown-menu container-fluid sub-menu-items" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"routerLink="/accommodationv1">Products</a>
+                <a class="dropdown-item" href="#">Services</a>
+                <a class="dropdown-item" href="#">Travels</a>
+                <a class="dropdown-item" href="#" routerLink="/vmallmain">Accommodation</a>
+                <a class="dropdown-item" href="#"routerLink="/vmall">Experiences</a>
+                <a class="dropdown-item" href="#" routerLink="/restaurant">Eateries</a>
+                <a class="dropdown-item" href="#">Wine &amp; Spirits</a>
+                <a class="dropdown-item" href="#" routerLink="/pillaradmin">Investments</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown-menu-vmall">
+              <a class="nav-link dropdown-toggle" href="#" routerLink="/" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                aria-expanded="false">Market Place</a>
+              <div class="dropdown-menu container-fluid sub-menu-items" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#" routerLink="/home">Products</a>
+                <a class="dropdown-item" href="#">Services</a>
+                <a class="dropdown-item" href="#">Travels</a>
+                <a class="dropdown-item" href="#" routerLink="/accommodationv4">Accommodation</a>
+                <a class="dropdown-item" href="#">Experiences</a>
+                <a class="dropdown-item" href="#">Eateries</a>
+                <a class="dropdown-item" href="#" routerLink="/pillaradmin">Wine &amp; Spirits</a>
+                <a class="dropdown-item" href="#" routerLink="/">Investments</a>
+              </div>
+            </li>
+           
+            <li class="nav-item">
+              <a class="nav-link" href="#">New Releases</a>
+            </li>
+            
+          </ul>
+
+          <div class="ml-auto d-none d-xl-block">
+            <ul class="navbar-nav top-menu-links">
+             <!-- <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <i class="fa fa-shopping-cart"></i>
+                  <br/>My Basket
+                </a>
+              </li>-->
+              <!--<li class="nav-item" *ngIf="!username">
+                <a class="nav-link" href="#" routerLink="/signin">
+                  <i class="fa fa-sign-in "></i>
+                  <br/>Log In
+                </a>
+              </li>-->
+              <li class="nav-item" *ngIf="username" >
+                  <a class="nav-link fingerpointer" (click)="onSignOutSubmit()"> 
+                    <i class="fa fa-sign-in "></i>
+                    <br/>Log Out
+                  </a>
+                </li>
+              
+              <li class="nav-item dropdown">
+
+
+
+
+                <a class="nav-link dropdown-toggle" href="#" id="langDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  <i class="fa fa-language"></i>
+                  <br/>Language
+                </a>
+                <div class="dropdown-menu lang-options" aria-labelledby="langDropdown">
+                  <a class="dropdown-item lang-es lang-select" data-lang="/en/km">Khmer</a>
+                  <a class="dropdown-item lang-es lang-select" data-lang="/en/ms">Malay</a>
+                  <a class="dropdown-item lang-es lang-select" data-lang="/en/ja">Japanese</a>
+                  <a class="dropdown-item lang-es lang-select" data-lang="/en/th">Thai</a>
+                  <a class="dropdown-item lang-es lang-select" data-lang="/en/id">Indonesia</a>
+                  <a class="dropdown-item lang-es lang-select" data-lang="/en/zh-CN">Chinese</a>
+                  <a class="dropdown-item lang-en lang-select" data-lang="/en/en">English</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+</div>

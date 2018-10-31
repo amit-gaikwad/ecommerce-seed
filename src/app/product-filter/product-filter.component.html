@@ -1,0 +1,94 @@
+<p class="lead">
+  {{name}}
+</p>
+<form>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 col-lg-3 col-md-4 col-sm-12 col-xl-3 ">
+        <div>
+          <label for="limit">Book Id </label>
+          <input type="number" name="id" [(ngModel)]="filter.id" min="1" [attr.max]="[numberOfBooks]" step="1"
+            placeholder="Id">
+        </div>
+        <div>
+          <label for="limit">title </label>
+          <input type="text" name="title" [(ngModel)]="filter.title" placeholder="Title">
+        </div>
+        <div>
+          <label for="limit">author </label>
+          <input type="text" name="author" [(ngModel)]="filter.author" placeholder="Author">
+        </div>
+        <div>
+          <label for="limit">year </label>
+          <input type="number" name="year" [(ngModel)]="filter.year" [attr.min]="minYear" [attr.max]="[maxYear]" step="1"
+            placeholder="Year">
+        </div>
+        <div>
+          <label for="limit">Limit: </label><input type="number" name="limit" [(ngModel)]="limit" min="1" [attr.max]="[numberOfBooks]"
+            step="1" placeholder="Limit">
+        </div>
+        <div>
+          <label for="page">Page: </label><input type="number" name="page" [(ngModel)]="page" min="1" [attr.max]="[numberOfBooks]"
+            step="1" placeholder="Page">
+        </div>
+
+
+
+
+      </div>
+      <div class="col-12 col-lg-9 col-md-6 col-sm-12 col-xl-9 ">
+        <!-- <tr *ngFor="let book of books | bookFilter:filter | slice:(page-1)*limit:page*limit"> -->
+        <!-- <td>{{book.id}}</td>
+          <td>{{book.title}}</td>
+          <td>{{book.author}}</td>
+          <td>{{book.year}}</td>
+        </tr> -->
+        <div class="card-columns">
+          <div class="card bg-light" *ngFor="let book of books | bookFilter:filter | slice:(page-1)*limit:page*limit">
+            <img class="card-img-top" [src]="book.img" alt="Card image cap">
+            <div class="card-body text-center">
+              <h5 class="card-title">{{book.title}}</h5>
+              <p class="card-text">{{book.author}}</p>
+              <p class="card-text">{{book.year}}</p>
+              <p class="card-text"><small class="text-muted">Book id : {{book.id}}</small></p>
+
+            </div>
+            <div class="card-footer">
+              <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
+              <a href="#" class="card-link">View Details</a>
+            </div>
+          </div>
+        </div>
+        <!-- <table>
+          <thead>
+            <tr>
+
+            </tr>
+          </thead>
+          <tfoot> -->
+        <!-- <tr>
+              <td colspan="4">
+                <label for="limit">Limit: </label><input type="number" name="limit" [(ngModel)]="limit" min="1"
+                  [attr.max]="[numberOfBooks]" step="1" placeholder="Limit">
+                <label for="page">Page: </label><input type="number" name="page" [(ngModel)]="page" min="1" [attr.max]="[numberOfBooks]"
+                  step="1" placeholder="Page">
+              </td>
+            </tr>
+          </tfoot>
+          <tbody> -->
+        <!-- 
+              <tr *ngFor="let book of books | bookFilter:filter | slice:(page-1)*limit:page*limit">
+             
+              <td>{{book.id}}</td>
+              <td>{{book.title}}</td>
+              <td>{{book.author}}</td>
+              <td>{{book.year}}</td>
+            </tr>
+          </tbody> -->
+        <!-- </table> -->
+      </div>
+    </div>
+  </div>
+
+</form>
